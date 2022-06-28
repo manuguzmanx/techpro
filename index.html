@@ -12,6 +12,110 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="imagen-header">
+                <picture>
+                    <source 
+                        sizes="1920W"
+                        srcset="img/header.avif 1920W" 
+                        type="image/avif">
+
+                    <source 
+                        sizes="1920W"
+                        srcset="img/header.webp 1920W" 
+                        type="image/webp">
+                    
+                    <source 
+                        sizes="1920W"
+                        srcset="img/header.jpg 1920W" 
+                        type="image/jpeg">
+
+                    <img loading="lazy" decoding="async" src="img/header.png" width="1000" height="500" lazyalt="Imagen header">
+                </picture>
+            </div> <!--.imagen-header-->
+
+            <div class="texto-header">
+                <p class="tagline-producto">Sonido profesional</p>
+                <h1 class="nombre-producto degradado-verde">TechPRO</h1>
+                <p class="descripcion-producto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, reprehenderit itaque, reiciendis repudiandae neque beatae sequi mollitia recusandae iusto.</p>
+
+                <p class="precio-producto">Desde <span>$299</span></p>
+            </div>
+        </div>
+    </header>
+
+    <section class="contenedor">
+        <div class="iconos">
+            <div class="icono">
+                <img src="img/icono-sonido.svg" alt="Imagen ícono">
+                <h3>Gran sonido</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro omnis hic ipsum eius quod vero temporibus non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem neque vero delectus soluta voluptatum est!</p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono-garantia.svg" alt="Imagen ícono">
+                <h3>Garantía de por vida</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro omnis hic ipsum eius quod vero temporibus non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure perspiciatis delectus asperiores expedita fugiat nisi illo, maiores atque mollitia ullam tenetur, providents.</p>
+            </div>
+
+            <div class="icono">
+                <img src="img/icono-bateria.svg" alt="Imagen ícono">
+                <h3>+20 horas de batería</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro omnis hic ipsum eius quod vero temporibus non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptates, adipisci ab sed dolores modi!</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="sobre-tech">
+        <div class="contenedor sobre-tech-grid">
+            <div class="texto-sobre-tech">
+                <h2>Sobre los<span>TechPRO</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit laborum qui totam est laudantium magni. Ut nihil dolor soluta reiciendis et, veritatis, voluptatem maxime perspiciatis quod molestias aperiam vel eius.</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="contenedor modelos">
+        <h2 class="text-center degradado-verde header-modelos">Elige tus TechPRO</h2>
+
+        <div class="listado-modelos">
+            <div class="modelo modelo-x">
+                <h3>TechPRO X</h3>
+                <p class="precio">$299</p>
+            </div>
+            <div class="modelo modelo-y">
+                <h3>TechPRO Y</h3>
+                <p class="precio">$399</p>
+            </div>
+            <div class="modelo modelo-z">
+                <h3>TechPRO Z</h3>
+                <p class="precio">$499</p>
+            </div>
+        </div>
+    </main>
     
+    <section class="newsletter">
+        <div class="contenido-newsletter contenedor">
+            <div class="texto-newsletter">
+                <h2>Recibe actualizaciones</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident accusamus esse nesciunt maxime eligendi rerum ipsum vero assumenda quae repellat, id ducimus quidem quos delectus, obcaecati beatae voluptatem aperiam exercitationem!</p>
+            
+                <form class="formulario">
+                    <div class="input">
+                        <input type="text" placeholder="Tu email">
+                    </div>
+
+                    <input type="submit" value="Inscribirme">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados</p>
+    </footer>
+    <script src="js/imagenes.js"></script>
 </body>
 </html>
